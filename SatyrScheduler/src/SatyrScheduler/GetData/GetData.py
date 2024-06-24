@@ -2,11 +2,11 @@
 import os
 
 #pip imported packages
-import panda as pd
+
 
 #Self created dependencies
-import SongData
-import SketchData
+import SongData.py
+import SketchData.py
 
 
 def GetData(lstCSV):

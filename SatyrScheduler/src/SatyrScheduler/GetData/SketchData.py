@@ -10,7 +10,5 @@ class SketchData:
 		self.name = os.path.splitext(self.dir)
 		self.type = "SKETCH"
 		self.TID = 1
-		self.df = self.CreateDataFrame()
-		pass
-	def CreateDataFrame(self):
+		self.df = pd.read_csv(self.dir)
 		pass

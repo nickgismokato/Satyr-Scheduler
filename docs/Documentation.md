@@ -1,1 +1,1 @@
-# Documentation of SaTyr Scheduler
+# Documentation of SaTyR Scheduler
