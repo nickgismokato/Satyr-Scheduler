@@ -1,6 +1,6 @@
 [build-system]
 requires = [
     "setuptools>=42",
-	"panda>=0.3.1"
+	"pandas>=2.2.2"
 ]
 build-backend = "setuptools.build_meta"
