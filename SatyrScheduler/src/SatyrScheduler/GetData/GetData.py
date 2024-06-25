@@ -10,50 +10,56 @@ class SketchData:
 		self.name = os.path.basename(self.dir)
 		self.type = "SKETCH"
 		self.TID = 1
-		self.df = pd.read_csv(self.dir)
-		pass
-
+		self.lstSketchObj = self.CreateListOfSketchObjects(self.dir)
+	def CreateListOfSketchObjects(self, dir):
+		df = pd.read_csv(dir)
+		returnlst = [Sketch(col1, col2, col3, col4) for col1, col2, col3, col4 in zip(df['Title'].str.lstrip(), df['Weight'], df['People'], df['Instructor'].str.lstrip())]
+		return returnlst
 class Sketch:
-	def __init__(self, data) -> None:
+	def __init__(self, title, weight, people, instructor) -> None:
 		self.title = ""
 		self.people = []
 		self.ranking = -1
 		self.instructor = ""
-		self.UpdateData(data)
-
-	def UpdateData(self, data):
-		self.title = data[0]
-		self.ranking = data[1]
-		for people in data[2]:
-			self.people.append(people)
-		self.instructor = data[3]
+		self.UpdateData(title, weight, people, instructor)
+	def UpdateData(self, title, weight, peoples, instructor):
+		self.title = title
+		self.ranking = int(weight)
+		self.instructor = instructor
+		tmpPeopleList = peoples.split(';')
+		tmplist = []
+		for people in tmpPeopleList:
+			tmplist.append(people.strip())
+		self.people = tmplist
 		return None
-
+	
 class SongData:
 	def __init__(self, directory) -> None:
 		self.dir = directory
 		self.name = os.path.basename(self.dir)
 		self.type = "SONG"
 		self.TID = 0
-		self.df = self.CreateDataFrame()
-		pass
-	def CreateDataFrame(self):
-		pass
-
+		self.lstSongObj = self.CreateListOfSongObjects(self.dir)
+	def CreateListOfSongObjects(self, dir):
+		df = pd.read_csv(dir)
+		returnlst = [Song(col1, col2, col3, col4) for col1, col2, col3, col4 in zip(df['Title'].str.lstrip(), df['Weight'], df['People'], df['Instructor'].str.lstrip())]
+		return returnlst
 class Song:
-	def __init__(self, data) -> None:
+	def __init__(self, title, weight, people, instructor) -> None:
 		self.title = ""
 		self.people = []
 		self.ranking = -1
 		self.instructor = ""
-		self.UpdateData(data)
-	
-	def UpdataData(self, data):
-		self.title = data[0]
-		self.ranking = data[1]
-		for people in data[2]:
-			self.people.append(people)
-		self.instructor = data[3]
+		self.UpdateData(title, weight, people, instructor)
+	def UpdateData(self, title, weight, peoples, instructor):
+		self.title = title
+		self.ranking = weight
+		self.instructor = instructor
+		tmpPeopleList = peoples.split(';')
+		tmplist = []
+		for people in tmpPeopleList:
+			tmplist.append(people.strip())
+		self.people = tmplist
 		return None
 
 def GetData():
