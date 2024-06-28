@@ -5,7 +5,14 @@ This package will be able to load data files (`.csv`) which contain a list of so
 
 Furthermore the program will also take people not doing anything and put them in '**Rekvisitten**'. My goal is also to automatically add breaks within the schedule such that people doesn't have to practice all the time.
 
+### Feature list
+- [x]
+- []
+- []
+
 ## How to build locally
+**NOTE!** To build locally it is recommended to be on a Linux Distro or at least use WSL in windows.
+
 To build locally go into `SatyrScheduler` and run the following command:
 ```bash
 python3 -m build
@@ -17,8 +24,17 @@ Remember to also uninstall the package from pip before trying to install. This c
 pip uninstall SatyrScheduler
 ```
 
+The script [`clean.sh`](clean.sh) is used to clean the python3 build content. The script [`build.sh`](build.sh) can be used to build the package from scratch without having to clean it.
+
 ## How to install
-Make sure that `pip` is installed. To install `SatyrScheduler` run the following command:
+Make sure that `pip` is installed. 
+
+**Install:** To install `SatyrScheduler` run the following command:
 ```bash
 pip install SatyrScheduler
+```
+
+**Update:** To update `SatyrScheduler` run the following command:
+```bash
+pip install --upgrade SatyrScheduler
 ```
