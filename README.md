@@ -38,3 +38,6 @@ pip install SatyrScheduler
 ```bash
 pip install --upgrade SatyrScheduler
 ```
+
+
+## About SaTyR
