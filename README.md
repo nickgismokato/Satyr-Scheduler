@@ -6,9 +6,9 @@ This package will be able to load data files (`.csv`) which contain a list of so
 Furthermore the program will also take people not doing anything and put them in '**Rekvisitten**'. My goal is also to automatically add breaks within the schedule such that people doesn't have to practice all the time.
 
 ### Feature list
-- [x]
-- []
-- []
+- [x] PyPi Package for easy install
+- [] Full documentation of the package and its uses
+- [] Automatic scheduler with custom timing, breakpoints, room assignment and instructor assignment
 
 ## How to build locally
 **NOTE!** To build locally it is recommended to be on a Linux Distro or at least use WSL in windows.
