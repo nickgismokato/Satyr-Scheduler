@@ -1,0 +1,2484 @@
+{
+    "pc": {
+        "age": 18,
+        "sex": "male",
+        "startSex": "male",
+        "factions": {},
+        "attributes": {
+            "attractiveness": 3,
+            "strength": 3,
+            "intelligence": 3,
+            "willpower": 2,
+            "perception": 0,
+            "agility": 2,
+            "dexterity": 0
+        },
+        "stats": {
+            "anxiety": 0,
+            "exhaustion": 0,
+            "lust": 0,
+            "pain": 0,
+            "filth": 0,
+            "sluttiness": 0
+        },
+        "statsMod": {
+            "anxiety": 0,
+            "exhaustion": 0,
+            "lust": 0,
+            "pain": 0,
+            "filth": 0,
+            "sluttiness": 0,
+            "elegance": -5
+        },
+        "skincolor": "tan",
+        "haircolor": "platinum blond",
+        "hairtype": "straight",
+        "hairlength": 2,
+        "eyecolor": "green",
+        "bodytype": "muscular",
+        "height": 5,
+        "buttsize": 1,
+        "breastsize": 2,
+        "trim": "hairless",
+        "facialmasc": 0,
+        "exclusive": [],
+        "bodyhair": 0,
+        "facialhair": "none",
+        "currentmaster": "Sagara",
+        "statsEff": [
+            "Woke up recently",
+            "Showered today"
+        ],
+        "reputEff": [
+            "Social",
+            "Social blunder - Town"
+        ],
+        "decayingEffects": {},
+        "timedEffects": {},
+        "prevOneTimeEffects": [],
+        "oneTimeEffects": [],
+        "modEffects": [],
+        "sexual orientation": {
+            "andromale": 1,
+            "d-girl": 2,
+            "male": 1,
+            "female": 2,
+            "herm": 2,
+            "hermm": 1,
+            "cunt-boy": 2
+        },
+        "home": "none",
+        "host": "none",
+        "hostedHome": "none",
+        "hostedIn": "none",
+        "workPlace": [],
+        "wallet": "none",
+        "piercings": {},
+        "outfit": {
+            "full body": "Nothing",
+            "outer layer": "Nothing",
+            "upper body": "Black t-shirt",
+            "lower body": "Black sweatpants",
+            "hands": "Nothing",
+            "underwear": "Black underpants",
+            "legs": "Black socks",
+            "shoes": "White sneakers"
+        },
+        "inventory": [
+            0,
+            0
+        ],
+        "skills": {
+            "Barter": 30,
+            "Seduction": 30,
+            "Social": 60.05,
+            "Lifting": 30,
+            "Fighting": 30,
+            "Sneaking": 20,
+            "Evasion": 20,
+            "Escape": 20,
+            "Service tasks": 0,
+            "Pickpocket": 0,
+            "Lockpick": 0,
+            "Control": 20,
+            "Temperance": 20,
+            "Problem solving": 30,
+            "Observation": 0
+        },
+        "skillsMod": {
+            "Barter": 0,
+            "Seduction": 0,
+            "Social": 0,
+            "Lifting": 0,
+            "Fighting": 0,
+            "Sneaking": 5,
+            "Evasion": 0,
+            "Escape": 0,
+            "Service tasks": 0,
+            "Pickpocket": 0,
+            "Lockpick": 0,
+            "Control": 0,
+            "Temperance": 0,
+            "Problem solving": 0
+        },
+        "sexStats": {
+            "pasbj": [
+                0,
+                "",
+                ""
+            ],
+            "pasbstrap": [
+                0,
+                "",
+                ""
+            ],
+            "pasvag": [
+                0,
+                "",
+                ""
+            ],
+            "pasamb": [
+                0,
+                "",
+                ""
+            ],
+            "pasanal": [
+                0,
+                "",
+                ""
+            ],
+            "pasanalstrap": [
+                0,
+                "",
+                ""
+            ],
+            "dick": [
+                0,
+                "",
+                ""
+            ],
+            "masturbated": [
+                0,
+                "",
+                ""
+            ],
+            "acthandjob": [
+                0,
+                "",
+                ""
+            ],
+            "pasfinger": [
+                0,
+                "",
+                ""
+            ],
+            "spitroast": [
+                0,
+                "",
+                ""
+            ],
+            "dp": [
+                0,
+                "",
+                ""
+            ],
+            "gangbang": [
+                0,
+                "",
+                ""
+            ],
+            "bukkake": [
+                0,
+                "",
+                ""
+            ]
+        },
+        "fetishes": {
+            "act anal training": 30,
+            "exhibitionism": 30,
+            "act rape": 30,
+            "pas slavery": 30,
+            "voyeurism": 30
+        },
+        "fetishesMod": {
+            "act anal training": 0,
+            "pas anal training": 0,
+            "authority figures": 0,
+            "act beatings": 0,
+            "pas beatings": 0,
+            "act bondage": 0,
+            "pas bondage": 0,
+            "act breath play": 0,
+            "pas breath play": 0,
+            "act chastity": 0,
+            "pas chastity": 0,
+            "act cock worship": 0,
+            "pas cock worship": 0,
+            "act discipline": 0,
+            "pas discipline": 0,
+            "act edging": 0,
+            "pas edging": 0,
+            "act electrical": 0,
+            "pas electrical": 0,
+            "exhibitionism": 0,
+            "act feminization": 0,
+            "pas feminization": 0,
+            "act forced orientation": 0,
+            "pas forced orientation": 0,
+            "act gangbangs": 0,
+            "pas gangbangs": 0,
+            "act humiliation": 0,
+            "pas humiliation": 0,
+            "act medical": 0,
+            "pas medical": 0,
+            "act milking": 0,
+            "pas milking": 0,
+            "act needle play": 0,
+            "pas needle play": 0,
+            "act NTR": 0,
+            "pas NTR": 0,
+            "act petplay": 0,
+            "pas petplay": 0,
+            "act prostitution": 0,
+            "pas prostitution": 0,
+            "act rape": 0,
+            "pas rape": 0,
+            "rough sex": 0,
+            "pas slavery": 0,
+            "act spanking": 0,
+            "pas spanking": 0,
+            "act strap-on": 0,
+            "pas strap-on": 0,
+            "act torture": 0,
+            "pas torture": 0,
+            "act verbal abuse": 0,
+            "pas verbal abuse": 0,
+            "voyeurism": 0,
+            "act watersports": 0,
+            "pas watersports": 0,
+            "act whipping": 0,
+            "pas whipping": 0
+        },
+        "submission": {
+            "Aras": 0,
+            "Holger": 0,
+            "Fernando": 0,
+            "Rafail": 0,
+            "Olena": 0
+        },
+        "last sleep": 21600000,
+        "last shower": 21600000,
+        "baseMascFem": 30,
+        "name": "Seirane",
+        "dicksize": 5,
+        "accessoryParts": {
+            "head": "Free",
+            "eyes": "Free",
+            "mouth": "Free",
+            "neck": "Free",
+            "wrists": "Free",
+            "elbows": "Free",
+            "waist": "Free",
+            "penis": "Free",
+            "testicles": "Free",
+            "ass": "Free",
+            "knees": "Free",
+            "ankles": "Free"
+        },
+        "uncoveredParts": [
+            "face",
+            "neck"
+        ],
+        "touchableParts": [
+            "face",
+            "neck"
+        ],
+        "itemMascFem": 5,
+        "features": [
+            "young",
+            "very tall",
+            "big dick",
+            "athletic",
+            "bald",
+            "blond",
+            "hairless",
+            "pretty"
+        ],
+        "derogatory": [
+            "slut",
+            "whore",
+            "cunt"
+        ],
+        "complement": [
+            "skilled",
+            "pretty",
+            "intelligent",
+            "strong"
+        ],
+        "insult": [
+            "giant freak",
+            "Sporty slut",
+            "gym whore",
+            "bald whore",
+            "egghead",
+            "golden boy cunt",
+            "blond cunt"
+        ],
+        "prevStats": {
+            "anxiety": 0,
+            "exhaustion": 0,
+            "lust": 0,
+            "pain": 0,
+            "filth": 0,
+            "sluttiness": 0
+        },
+        "reputation": {
+            "Town": [
+                0.2,
+                0,
+                0
+            ],
+            "Police": [
+                0,
+                0,
+                0
+            ]
+        },
+        "position": "stand",
+        "mainFetish": "voyeurism",
+        "mainFetVal": 30
+    },
+    "characters": {
+        "Mosser": {
+            "faction": "Police",
+            "boss": "none",
+            "sub": [
+                "Laida",
+                "Gala"
+            ],
+            "title": "Chief of Police",
+            "status": 90,
+            "tier": 3
+        },
+        "Laida": {
+            "faction": "Police",
+            "boss": "Mosser",
+            "sub": [
+                "Aras",
+                "Songho"
+            ],
+            "title": "Lieutenant",
+            "status": 70,
+            "tier": 4
+        },
+        "Gala": {
+            "faction": "Police",
+            "boss": "Mosser",
+            "sub": [
+                "Daisy",
+                "Mimi"
+            ],
+            "title": "Lieutenant",
+            "status": 60,
+            "tier": 4
+        },
+        "Aras": {
+            "faction": "Police",
+            "boss": "Laida",
+            "sub": [
+                "Hamidas",
+                "Jaiden"
+            ],
+            "title": "Sergeant",
+            "status": 40,
+            "tier": 5
+        },
+        "Songho": {
+            "faction": "Police",
+            "boss": "Laida",
+            "sub": [
+                "Otto",
+                "Ursus"
+            ],
+            "title": "Sergeant",
+            "status": 30,
+            "tier": 5
+        },
+        "Daisy": {
+            "faction": "Police",
+            "boss": "Gala",
+            "sub": [
+                "Mario",
+                "Halim"
+            ],
+            "title": "Sergeant",
+            "status": 50,
+            "tier": 5
+        },
+        "Mimi": {
+            "faction": "Police",
+            "boss": "Gala",
+            "sub": [
+                "Anton",
+                "Toni"
+            ],
+            "title": "Sergeant",
+            "status": 50,
+            "tier": 5
+        },
+        "Hamidas": {
+            "faction": "Police",
+            "boss": "Aras",
+            "rival": "Jaiden",
+            "sub": [],
+            "title": "Patrol Officer",
+            "status": 10,
+            "tier": 6
+        },
+        "Jaiden": {
+            "faction": "Police",
+            "boss": "Aras",
+            "rival": "Hamidas",
+            "sub": [],
+            "title": "Patrol Officer",
+            "status": 20,
+            "tier": 6
+        },
+        "Otto": {
+            "faction": "Police",
+            "boss": "Songho",
+            "sub": [],
+            "title": "Patrol Officer",
+            "status": 20,
+            "tier": 6
+        },
+        "Ursus": {
+            "faction": "Police",
+            "boss": "Songho",
+            "sub": [],
+            "title": "Patrol Officer",
+            "status": 20,
+            "tier": 6
+        },
+        "Mario": {
+            "faction": "Police",
+            "boss": "Daisy",
+            "sub": [],
+            "title": "Patrol Officer",
+            "status": 10,
+            "tier": 6
+        },
+        "Halim": {
+            "faction": "Police",
+            "boss": "Daisy",
+            "sub": [],
+            "title": "Patrol Officer",
+            "status": 10,
+            "tier": 6
+        },
+        "Anton": {
+            "faction": "Police",
+            "boss": "Mimi",
+            "sub": [],
+            "title": "Patrol Officer",
+            "status": 10,
+            "tier": 6
+        },
+        "Toni": {
+            "faction": "Police",
+            "boss": "Mimi",
+            "sub": [],
+            "title": "Patrol Officer",
+            "status": 10,
+            "tier": 6
+        },
+        "Holger": {
+            "faction": "Gym",
+            "boss": "none",
+            "sub": [
+                "Rafail",
+                "Fernando",
+                "Sabiya"
+            ],
+            "title": "Gym owner",
+            "status": 50,
+            "tier": 5
+        },
+        "Rafail": {
+            "faction": "Gym",
+            "boss": "Holger",
+            "sub": [],
+            "title": "Trainer",
+            "status": 20,
+            "tier": 6
+        },
+        "Fernando": {
+            "faction": "Gym",
+            "boss": "Holger",
+            "sub": [],
+            "title": "Trainer",
+            "status": 30,
+            "tier": 6
+        },
+        "Sabiya": {
+            "faction": "Gym",
+            "boss": "Holger",
+            "sub": [],
+            "title": "Trainer",
+            "status": 20,
+            "tier": 6
+        },
+        "Tanja": {
+            "faction": "Town",
+            "boss": "none",
+            "sub": [
+                "Boris",
+                "Brock"
+            ],
+            "title": "Mogul",
+            "status": 90,
+            "tier": 4,
+            "partner": [
+                "India",
+                "Foni"
+            ]
+        },
+        "Brock": {
+            "faction": "Town",
+            "boss": "Tanja",
+            "sub": [
+                "Frank",
+                "Joe",
+                "Stan",
+                "Mike"
+            ],
+            "title": "Construction Crew Leader",
+            "status": 50,
+            "tier": 5
+        },
+        "Boris": {
+            "faction": "Town",
+            "boss": "Tanja",
+            "sub": [
+                "Sasha"
+            ],
+            "title": "Store owner",
+            "status": 40,
+            "tier": 5
+        },
+        "Sasha": {
+            "faction": "Town",
+            "boss": "Boris",
+            "sub": [],
+            "title": "Shopkeeper",
+            "status": 10,
+            "tier": 6
+        },
+        "Olena": {
+            "faction": "Town",
+            "boss": "none",
+            "sub": [],
+            "title": "Property Owner",
+            "status": 70,
+            "tier": 4,
+            "statsEff": [],
+            "position": "stand",
+            "exhaustion": 0,
+            "pain": 0,
+            "lust": 0
+        },
+        "Morgan": {
+            "faction": "Town",
+            "boss": "none",
+            "sub": [],
+            "title": "Property Owner",
+            "status": 60,
+            "tier": 4
+        },
+        "Quinn": {
+            "faction": "Town",
+            "boss": "Morgan",
+            "sub": [],
+            "title": "butler",
+            "status": 20,
+            "tier": 5
+        },
+        "Otaro": {
+            "faction": "Town",
+            "boss": "none",
+            "sub": [
+                "Iaia",
+                "Samya"
+            ],
+            "title": "Property Owner",
+            "status": 70,
+            "tier": 4
+        },
+        "Iaia": {
+            "faction": "Town",
+            "boss": "Otaro",
+            "sub": [
+                "Jaxton",
+                "Rourke",
+                "Verrick"
+            ],
+            "title": "Administrator",
+            "status": 50,
+            "tier": 5
+        },
+        "Samya": {
+            "faction": "Town",
+            "boss": "Otaro",
+            "sub": [
+                "Magnus",
+                "Calder",
+                "Tavish"
+            ],
+            "title": "Administrator",
+            "status": 40,
+            "tier": 5
+        },
+        "Jania": {
+            "faction": "Town",
+            "boss": "none",
+            "sub": [],
+            "title": "Property Owner",
+            "status": 50,
+            "tier": 4
+        },
+        "Vanessa": {
+            "faction": "Isara Inc",
+            "boss": "none",
+            "sub": [
+                "Cait",
+                "Nath"
+            ],
+            "title": "Chairwoman",
+            "status": 90,
+            "tier": 3
+        },
+        "Cait": {
+            "faction": "Isara Inc",
+            "boss": "Vanessa",
+            "sub": [
+                "Sagara",
+                "Emily"
+            ],
+            "title": "CTO",
+            "status": 70,
+            "tier": 4
+        },
+        "Nath": {
+            "faction": "Isara Inc",
+            "boss": "Vanessa",
+            "sub": [
+                "Alexia",
+                "Taresha",
+                "Polina"
+            ],
+            "title": "COO",
+            "status": 60,
+            "tier": 4
+        },
+        "Sagara": {
+            "faction": "Isara Inc",
+            "boss": "Cait",
+            "rival": "Emily",
+            "sub": [
+                "Rebecca",
+                "Hista"
+            ],
+            "title": "Lead Researcher",
+            "status": 40,
+            "tier": 5
+        },
+        "Ciara": {
+            "faction": "Isara Inc",
+            "boss": "Sagara",
+            "sub": [],
+            "title": "Research Assistant",
+            "status": 20,
+            "tier": 6
+        },
+        "Rebecca": {
+            "faction": "Isara Inc",
+            "boss": "Sagara",
+            "sub": [],
+            "title": "Research Assistant",
+            "status": 15,
+            "tier": 6
+        },
+        "Lisa": {
+            "faction": "Isara Inc",
+            "boss": "Sagara",
+            "sub": [],
+            "title": "Research Assistant",
+            "status": 12,
+            "tier": 6
+        },
+        "Sophie": {
+            "faction": "Isara Inc",
+            "boss": "Sagara",
+            "sub": [],
+            "title": "Research Assistant",
+            "status": 10,
+            "tier": 6
+        },
+        "Taresha": {
+            "faction": "Isara Inc",
+            "boss": "Nath",
+            "sub": [
+                "Tino",
+                "Lolo"
+            ],
+            "title": "Operations",
+            "status": 50,
+            "tier": 5
+        },
+        "Tino": {
+            "faction": "Isara Inc",
+            "boss": "Taresha",
+            "sub": [],
+            "title": "Operations Assistant",
+            "status": 10,
+            "tier": 6
+        },
+        "Lolo": {
+            "faction": "Isara Inc",
+            "boss": "Taresha",
+            "sub": [],
+            "title": "Operations Assistant",
+            "status": 10,
+            "tier": 6
+        },
+        "Hista": {
+            "faction": "Isara Inc",
+            "boss": "Polina",
+            "sub": [
+                "Hista",
+                "Sotor"
+            ],
+            "title": "Operations",
+            "status": 20,
+            "tier": 5
+        },
+        "Yax": {
+            "faction": "Isara Inc",
+            "boss": "Hista",
+            "sub": [],
+            "title": "Operations",
+            "status": 20,
+            "tier": 6
+        },
+        "Sotor": {
+            "faction": "Isara Inc",
+            "boss": "Hista",
+            "sub": [],
+            "title": "Operations",
+            "status": 20,
+            "tier": 6
+        },
+        "Alexia": {
+            "faction": "Isara Inc",
+            "boss": "Nath",
+            "sub": [
+                "Marcela",
+                "Mireia",
+                "Avi"
+            ],
+            "title": "Head of HR",
+            "status": 50,
+            "tier": 5
+        },
+        "Marcela": {
+            "faction": "Isara Inc",
+            "boss": "Alexia",
+            "sub": [],
+            "title": "Research Assistant",
+            "status": 10,
+            "tier": 6
+        },
+        "Mireia": {
+            "faction": "Isara Inc",
+            "boss": "Alexia",
+            "sub": [],
+            "title": "HR",
+            "status": 10,
+            "tier": 6
+        },
+        "Avi": {
+            "faction": "Isara Inc",
+            "boss": "Alexia",
+            "sub": [],
+            "title": "HR",
+            "status": 10,
+            "tier": 6
+        },
+        "Emily": {
+            "faction": "Isara Inc",
+            "boss": "Cait",
+            "rival": "Sagara",
+            "sub": [
+                "Anna",
+                "Zoe"
+            ],
+            "title": "Senior Researcher",
+            "status": 40,
+            "tier": 5
+        },
+        "Anna": {
+            "faction": "Isara Inc",
+            "boss": "Emily",
+            "sub": [],
+            "title": "Research Assistant",
+            "status": 20,
+            "tier": 6
+        },
+        "Zoe": {
+            "faction": "Isara Inc",
+            "boss": "Emily",
+            "sub": [],
+            "title": "Research Assistant",
+            "status": 15,
+            "tier": 6
+        },
+        "Raul": {
+            "faction": "Synapse Corp",
+            "boss": "",
+            "sub": [
+                "Shyla"
+            ],
+            "title": "COO",
+            "status": 70,
+            "tier": 4
+        },
+        "Shyla": {
+            "faction": "Synapse Corp",
+            "boss": "Raul",
+            "sub": [
+                "Reyl",
+                "Sabin"
+            ],
+            "title": "Project Manager",
+            "status": 40,
+            "tier": 5
+        },
+        "Reyl": {
+            "faction": "Synapse Corp",
+            "boss": "Shyla",
+            "sub": [],
+            "title": "Software Developer",
+            "status": 20,
+            "tier": 6
+        },
+        "Zach": {
+            "faction": "Synapse Corp",
+            "boss": "Shyla",
+            "sub": [],
+            "title": "Software Developer",
+            "status": 20,
+            "tier": 6
+        },
+        "Sabin": {
+            "faction": "Synapse Corp",
+            "boss": "Raul",
+            "sub": [
+                "Ilona",
+                "Sohgo",
+                "Ilona"
+            ],
+            "title": "Project Manager",
+            "status": 40,
+            "tier": 5
+        },
+        "Sohgo": {
+            "faction": "Synapse Corp",
+            "boss": "Sabin",
+            "sub": [],
+            "title": "Software Developer",
+            "status": 20,
+            "tier": 6,
+            "partner": [
+                "Ilona"
+            ]
+        },
+        "Ilona": {
+            "faction": "Synapse Corp",
+            "boss": "Sabin",
+            "sub": [],
+            "title": "Software Developer",
+            "status": 20,
+            "tier": 6,
+            "partner": [
+                "Sohgo"
+            ]
+        },
+        "Cohan": {
+            "faction": "Synapse Corp",
+            "boss": "Sabin",
+            "sub": [],
+            "title": "Software Developer",
+            "status": 20,
+            "tier": 6
+        },
+        "Zane": {
+            "faction": "Ronda Gang",
+            "boss": "none",
+            "sub": [
+                "Hawk",
+                "Rico",
+                "Bishop",
+                "Margo"
+            ],
+            "title": "Gang Leader",
+            "status": 90,
+            "tier": 4
+        },
+        "Hawk": {
+            "faction": "Ronda Gang",
+            "boss": "Zane",
+            "sub": [
+                "Kip",
+                "Nash",
+                "Gage"
+            ],
+            "title": "Enforcer",
+            "status": 70,
+            "tier": 5
+        },
+        "Rico": {
+            "faction": "Ronda Gang",
+            "boss": "Zane",
+            "sub": [
+                "Mercer",
+                "Blaine",
+                "Carlos",
+                "Flint",
+                "Serra"
+            ],
+            "title": "Enforcer",
+            "status": 50,
+            "tier": 5
+        },
+        "Margo": {
+            "faction": "Ronda Gang",
+            "boss": "Zane",
+            "sub": [
+                "Tilda",
+                "Reggie"
+            ],
+            "title": "Enforcer",
+            "status": 50,
+            "tier": 5
+        },
+        "Enara": {
+            "faction": "Thulle",
+            "boss": "none",
+            "sub": [
+                "Leila",
+                "Ebenezer"
+            ],
+            "title": "Custodian",
+            "status": 50,
+            "tier": 4
+        },
+        "Leila": {
+            "faction": "Thulle",
+            "boss": "Enara",
+            "sub": [
+                "Khadija",
+                "Mariam"
+            ],
+            "title": "Devotee",
+            "status": 20,
+            "tier": 5
+        },
+        "Ebenezer": {
+            "faction": "Thulle",
+            "boss": "Enara",
+            "sub": [
+                "Ayo",
+                "Tylah",
+                "Nadia"
+            ],
+            "title": "Devotee",
+            "status": 30,
+            "tier": 5
+        },
+        "Amina": {
+            "faction": "Thulle",
+            "boss": "Enara",
+            "sub": [],
+            "title": "Devotee",
+            "status": 30,
+            "tier": 5
+        },
+        "Oracle": {
+            "faction": "Thulle Deviants",
+            "boss": "none",
+            "sub": [
+                "Mystra",
+                "Rikka",
+                "Kasune"
+            ],
+            "title": "Oracle",
+            "status": 90,
+            "tier": 1
+        },
+        "Mystra": {
+            "faction": "Thulle Deviants",
+            "boss": "Oracle",
+            "sub": [
+                "Gallata",
+                "Nova",
+                "Shix"
+            ],
+            "title": "Vanguard",
+            "status": 70,
+            "tier": 2
+        },
+        "Gallata": {
+            "faction": "Thulle Deviants",
+            "boss": "Mystra",
+            "sub": [],
+            "title": "Siren",
+            "status": 50,
+            "tier": 3
+        },
+        "Nova": {
+            "faction": "Thulle Deviants",
+            "boss": "Mystra",
+            "sub": [],
+            "title": "Siren",
+            "status": 50,
+            "tier": 3
+        },
+        "Shix": {
+            "faction": "Thulle Deviants",
+            "boss": "Mystra",
+            "sub": [],
+            "title": "Siren",
+            "status": 50,
+            "tier": 3
+        },
+        "Rikka": {
+            "faction": "Thulle Deviants",
+            "boss": "Oracle",
+            "sub": [
+                "Elekra",
+                "Adanna"
+            ],
+            "title": "Vanguard",
+            "status": 60,
+            "tier": 2
+        },
+        "Elekra": {
+            "faction": "Thulle Deviants",
+            "boss": "Rikka",
+            "sub": [
+                "Sable",
+                "Lyra"
+            ],
+            "title": "Captain",
+            "status": 40,
+            "tier": 3
+        },
+        "Sable": {
+            "faction": "Thulle Deviants",
+            "boss": "Elekra",
+            "sub": [],
+            "title": "Enforcer",
+            "status": 20,
+            "tier": 4
+        },
+        "Lyra": {
+            "faction": "Thulle Deviants",
+            "boss": "Elekra",
+            "sub": [],
+            "title": "Enforcer",
+            "status": 20,
+            "tier": 4
+        },
+        "Adanna": {
+            "faction": "Thulle Deviants",
+            "boss": "Rikka",
+            "sub": [
+                "Aria",
+                "Sorona"
+            ],
+            "title": "Captain",
+            "status": 40,
+            "tier": 3
+        },
+        "Aria": {
+            "faction": "Thulle Deviants",
+            "boss": "Adanna",
+            "sub": [],
+            "title": "Enforcer",
+            "status": 20,
+            "tier": 4
+        },
+        "Sorona": {
+            "faction": "Thulle Deviants",
+            "boss": "Adanna",
+            "sub": [],
+            "title": "Enforcer",
+            "status": 20,
+            "tier": 4
+        },
+        "Kasune": {
+            "faction": "Thulle Deviants",
+            "boss": "Oracle",
+            "sub": [
+                "Samma",
+                "Tinker"
+            ],
+            "title": "Vanguard",
+            "status": 60,
+            "tier": 2
+        },
+        "Tinker": {
+            "faction": "Thulle Deviants",
+            "boss": "Kasune",
+            "sub": [
+                "Ioanna",
+                "Saymy"
+            ],
+            "title": "Captain",
+            "status": 40,
+            "tier": 3
+        },
+        "Ioanna": {
+            "faction": "Thulle Deviants",
+            "boss": "Tinker",
+            "sub": [],
+            "title": "Enforcer",
+            "status": 20,
+            "tier": 4
+        },
+        "Saymy": {
+            "faction": "Thulle Deviants",
+            "boss": "Tinker",
+            "sub": [],
+            "title": "Enforcer",
+            "status": 20,
+            "tier": 4
+        },
+        "Samma": {
+            "faction": "Thulle Deviants",
+            "boss": "Kasune",
+            "sub": [
+                "Ember",
+                "Sooty"
+            ],
+            "title": "Captain",
+            "status": 40,
+            "tier": 3
+        },
+        "Ember": {
+            "faction": "Thulle Deviants",
+            "boss": "Samma",
+            "sub": [],
+            "title": "Enforcer",
+            "status": 20,
+            "tier": 4
+        },
+        "Sooty": {
+            "faction": "Thulle Deviants",
+            "boss": "Samma",
+            "sub": [],
+            "title": "Enforcer",
+            "status": 20,
+            "tier": 4
+        },
+        "anonymous": {
+            "partner": []
+        },
+        "Lilly": {
+            "partner": [
+                "Ina"
+            ]
+        },
+        "Ina": {
+            "partner": [
+                "Lilly"
+            ]
+        },
+        "Foni": {
+            "partner": [
+                "Tanja"
+            ]
+        },
+        "Robby": {
+            "partner": [
+                "Raphaelle"
+            ]
+        },
+        "Raphaelle": {
+            "partner": [
+                "Robby"
+            ]
+        },
+        "undefined": {
+            "statsEff": [],
+            "position": "stand",
+            "exhaustion": 0,
+            "pain": 0,
+            "lust": 0
+        },
+        "Timea": {
+            "trust": 0,
+            "rels": [
+                "knowsname"
+            ],
+            "named": "yes",
+            "obedience": 0,
+            "violation": 2,
+            "statsEff": [],
+            "position": "stand",
+            "exhaustion": 0,
+            "pain": 0,
+            "lust": 0
+        }
+    },
+    "flag": {
+        "caskedtown": 0,
+        "caskedadmin": 0,
+        "caskedisara": 0,
+        "caskedsynapse": 0,
+        "caskedthulle": 0,
+        "caskedthdev": 0,
+        "caskedronda": 0,
+        "caskedjob": 0,
+        "caskedhowlongtown": 0,
+        "caskedrel": 0,
+        "cbully": 0,
+        "ctaunt": 0,
+        "caskcash": 0,
+        "cordernaked": 0,
+        "caskgetknees": 0,
+        "caskdegrade": 0,
+        "cqhow": 0,
+        "cqname": 0,
+        "cqplace": 0,
+        "cqlook": 0,
+        "cqgag": 0,
+        "cnpcquest": 0,
+        "cqyouok": 0,
+        "cinsulted": 0,
+        "makeamove": 0,
+        "fSugOut": 0,
+        "clcomp": 0,
+        "cljob": 0,
+        "clconcern": 0,
+        "cafuckoff": 0,
+        "cmout": 0,
+        "camcloser": 0,
+        "flirtLet": 0,
+        "cdslap": 0,
+        "caskedstay": 0,
+        "clsexexp": 0,
+        "conce1": 0,
+        "cschedule": 0,
+        "cqhome": 0,
+        "crexclusive": 0,
+        "crmovein": 0,
+        "crmoveout": 0,
+        "crlove": 0,
+        "crloved": 0,
+        "crhang": 0,
+        "crbreakpartner": 0,
+        "cnoflirt": 0,
+        "csugRedLab": 0,
+        "cdtakesubst": 0,
+        "cfdrink": 0,
+        "cfdrinknpc": 0,
+        "cqletgo": 0,
+        "sexnpcroughtype": 0,
+        "sexpetplay": 0,
+        "hookUp": 0,
+        "sexStrip": 0,
+        "asex": 0,
+        "sexStay": 0,
+        "sexAskStrip": 0,
+        "sexCumMouthNPC": 0,
+        "domSucc": 0
+    },
+    "quests": {
+        "qsleep": "Active",
+        "qwork": "Active",
+        "qmeetpeople": "qmeetend",
+        "qunid": "Active"
+    },
+    "config": {
+        "Night mode": true,
+        "Font size": 4,
+        "Danger warning": true,
+        "Align NPC orientation": false,
+        "Chastity": true,
+        "Forced orientation": true,
+        "Gender bending": true,
+        "Crossdressing": true,
+        "Heavy torture": true,
+        "NTR": true,
+        "Rape fetish": true,
+        "Rape effects": true,
+        "Single NPCs": false,
+        "Watersports": true
+    },
+    "factions": {},
+    "world": {
+        "date": 23100000,
+        "hour": 7,
+        "capturedNPCs": [],
+        "homes": {},
+        "jobs": {},
+        "locationHist": {},
+        "lootbox": {
+            "tgym-locker1B": [
+                0,
+                5,
+                "Sildenafil",
+                "Sildenafil",
+                "Amphetamines",
+                "Jeans",
+                "White shirt"
+            ],
+            "tgym-locker1C": [
+                0,
+                3,
+                "Amphetamines",
+                "Jeans",
+                "White shirt"
+            ],
+            "tgym-locker2A": [
+                0,
+                1,
+                "Bag of pills",
+                "Jeans",
+                "Red polo",
+                "Adrenaline",
+                "Insta-Soap",
+                "Grip-enhancing gloves"
+            ],
+            "tgym-locker2B": [
+                0,
+                4,
+                "Black rubber-heeled boots",
+                "Jeans",
+                "Protein",
+                "Protein",
+                "Adrenaline",
+                "Insta-Soap",
+                "Grip-enhancing gloves",
+                "Chastity cage",
+                "Olaf Malbourg's Description"
+            ],
+            "tgym-locker3A": [
+                0,
+                1,
+                "Bag of pills",
+                "Jeans",
+                "Adrenaline",
+                "Insta-Soap",
+                "Grip-enhancing gloves",
+                "Lockpick"
+            ],
+            "tOlenaTrunk": [
+                0,
+                0,
+                "Fishnet stockings",
+                "See-through skirt",
+                "Tight see-through gown",
+                "Black shoes",
+                "Servant necklace"
+            ],
+            "t4ep2wardrobe": [
+                0,
+                0,
+                "Pillow case"
+            ],
+            "t4ep7wardrobe": [
+                0,
+                0,
+                "Pillow case"
+            ],
+            "t7wardrobe": [
+                0,
+                0,
+                "Pillow case",
+                "Insta-Soap"
+            ],
+            "t8wardrobe": [
+                0,
+                0,
+                "Pillow case",
+                "Insta-Soap"
+            ],
+            "tmorwardrobe": [
+                0,
+                0,
+                "Pillow case",
+                "Insta-Soap"
+            ],
+            "thrwardrobe": [
+                0,
+                0,
+                "Pillow case",
+                "Robe"
+            ],
+            "tewarehouse": [
+                0,
+                0,
+                "Paint",
+                "Wooden plank"
+            ],
+            "tncsite": [
+                0,
+                0,
+                "Paint",
+                "Brush",
+                "Chain",
+                "Adrenaline",
+                "Steel-toe boots",
+                "Metal bar",
+                "Metal bar",
+                "Wooden plank",
+                "Wooden plank",
+                "Large bolt",
+                "Large bolt"
+            ],
+            "tdetective": [
+                0,
+                5,
+                "Olaf's ID",
+                "Lockpick",
+                "Bag of cocaine",
+                "Amphetamines",
+                "Brown trench coat",
+                "Shadow Mist Spray",
+                "Nerve-Steadying Serum"
+            ],
+            "tsoftware": [
+                0,
+                5,
+                "Blank ID",
+                "Blank ID",
+                "Bag of cocaine",
+                "Amphetamines",
+                "Pendrive",
+                "Self booting flash drive"
+            ],
+            "tadvert": [
+                0,
+                5,
+                "Blank ID",
+                "Bag of cocaine",
+                "Bag of cocaine",
+                "Amphetamines",
+                "Instant camera"
+            ],
+            "ttower": [
+                0,
+                1,
+                "Whisky",
+                "Vodka"
+            ],
+            "tpharma": [
+                0,
+                5,
+                "Sildenafil",
+                "Sildenafil",
+                "Amphetamines",
+                "Amphetamines",
+                "Tramadol",
+                "Tramadol",
+                "Adrenaline",
+                "Nerve-Steadying Serum"
+            ],
+            "tgenomics": [
+                0,
+                5,
+                "Sildenafil",
+                "Sildenafil",
+                "Amphetamines",
+                "Amphetamines",
+                "Tramadol",
+                "Tramadol",
+                "Adrenaline",
+                "Nerve-Steadying Serum",
+                "Camo cloak"
+            ],
+            "tfashion": [
+                0,
+                5,
+                "Black t-shirt",
+                "White t-shirt",
+                "Black jeans",
+                "Jeans",
+                "Black tank top",
+                "Grey tank top",
+                "White tank top",
+                "Black skirt",
+                "Grey skirt",
+                "Black panties",
+                "White panties",
+                "Red panties",
+                "Black underpants",
+                "White underpants",
+                "Red underpants",
+                "Black sneakers",
+                "White sneakers",
+                "Red sneakers",
+                "Grey suit jacket",
+                "Black suit jacket",
+                "White blouse",
+                "Grey suit pants",
+                "Black suit pants",
+                "Black maxi dress",
+                "White maxi dress",
+                "Green summer dress",
+                "White summer dress",
+                "Camo cloak",
+                "Fishnet long gloves"
+            ],
+            "tgroceries": [
+                0,
+                5,
+                "Vodka",
+                "Diluted ethanol",
+                "Protein powder",
+                "Caffeine drink",
+                "Coffee",
+                "Sugary drink",
+                "Carbohydrate flour",
+                "Sweet flour",
+                "Solid fat"
+            ],
+            "thardware": [
+                0,
+                5,
+                "Instant camera",
+                "Lockpick",
+                "Large bolt",
+                "Large bolt",
+                "Large bolt",
+                "Wooden plank",
+                "Wooden plank",
+                "Handcuffs with key",
+                "Steel-toe boots",
+                "Insta-Soap",
+                "Utility gloves",
+                "Reinforced gloves",
+                "Nitrile gloves",
+                "Grip-enhancing gloves",
+                "Door lock",
+                "Piece of rope"
+            ],
+            "tfood": [
+                0,
+                5,
+                "Protein",
+                "Boy's ID",
+                "Whip",
+                "Hormone cocktail A1",
+                "Hormone cocktail B1",
+                "Hormone cocktail D4",
+                "Benzos",
+                "Amphetamines",
+                "Reinforced gloves"
+            ],
+            "tthworkshop": [
+                0,
+                0,
+                "Wooden plank"
+            ],
+            "tbar": [
+                0,
+                15,
+                "Vodka",
+                "Bag of cocaine"
+            ],
+            "tnorthsa1a1": [
+                0,
+                15,
+                "Sildenafil",
+                "Bag of cocaine",
+                "Whip",
+                "Popper",
+                "Leather belt",
+                "Electric prod"
+            ],
+            "tnorthsa1a2": [
+                0,
+                15,
+                "Sildenafil",
+                "Amphetamines",
+                "Popper",
+                "Leather belt"
+            ],
+            "tnorthsa1a3": [
+                0,
+                10,
+                "Sildenafil",
+                "Leather belt"
+            ],
+            "tnorthsa1a4": [
+                0,
+                10,
+                "Leather belt"
+            ],
+            "tnorthsa1a5": [
+                0,
+                2,
+                "Leather belt",
+                "Large wooden spoon"
+            ],
+            "tnorthsa2": [
+                0,
+                10
+            ],
+            "tnorthsa3": [
+                0,
+                10,
+                "Leather belt",
+                "Wooden cutting board"
+            ],
+            "tnorthsa4": [
+                0,
+                12,
+                "Testosterone injections",
+                "Steroids"
+            ],
+            "tnorthsa6": [
+                0,
+                10,
+                "Leather belt"
+            ],
+            "tnorthsa8": [
+                0,
+                10,
+                "Large wooden spoon"
+            ],
+            "tsouthsa3": [
+                0,
+                2
+            ],
+            "tsouthsa4": [
+                0,
+                4,
+                "Wooden cutting board"
+            ],
+            "tsouthsa4a1": [
+                0,
+                4,
+                "Wooden cutting board"
+            ],
+            "tsouthsa4a2": [
+                0,
+                4,
+                "Whip"
+            ],
+            "tsouthsa4a3": [
+                0,
+                4,
+                "Leather belt"
+            ],
+            "tsouthsa4a4": [
+                0,
+                4,
+                "Wooden cutting board"
+            ],
+            "tsouthsa4a5": [
+                0,
+                4,
+                "Testosterone injections"
+            ],
+            "tsouthsa4a6": [
+                0,
+                4,
+                "Whip"
+            ],
+            "tsouthsa4a7": [
+                0,
+                4,
+                "Leather belt"
+            ],
+            "tsouthsa4a8": [
+                0,
+                4,
+                "Wooden cutting board"
+            ],
+            "tsouthsa5": [
+                0,
+                4,
+                "Large wooden spoon",
+                "Whip"
+            ],
+            "tsouthsa7": [
+                0,
+                2,
+                "Leather belt",
+                "Whip",
+                "Electric prod"
+            ],
+            "tsouthsa8": [
+                0,
+                2
+            ],
+            "tsouthsa9": [
+                0,
+                10,
+                "Bag of cocaine",
+                "Bag of cocaine"
+            ],
+            "tsouthsax": [
+                0,
+                2,
+                "Leather belt"
+            ],
+            "twestslums": [
+                0,
+                2,
+                "Sildenafil",
+                "Popper"
+            ],
+            "twestslumshut1": [
+                0,
+                2,
+                "Sildenafil",
+                "Popper"
+            ],
+            "twestslumshut2": [
+                0,
+                2,
+                "Leather belt",
+                "Whip"
+            ],
+            "twestslumshut3": [
+                0,
+                2,
+                "Wooden cutting board"
+            ],
+            "twestslumshut4": [
+                0,
+                2,
+                "Wooden cutting board"
+            ],
+            "twestslumshut5": [
+                0,
+                2,
+                "Leather belt",
+                "Whip",
+                "Electric prod"
+            ],
+            "twestslumshut6": [
+                0,
+                2,
+                "Wooden cutting board"
+            ],
+            "twestslumshut7": [
+                0,
+                2,
+                "Large wooden spoon"
+            ],
+            "twestslumshut8": [
+                0,
+                2,
+                "Leather belt",
+                "Whip"
+            ],
+            "twestslumshut9": [
+                0,
+                2,
+                "Leather belt",
+                "Whip",
+                "Electric prod",
+                "Wooden cutting board"
+            ],
+            "tcentralslums": [
+                0,
+                2,
+                "Sildenafil",
+                "Popper"
+            ],
+            "teastsa3": [
+                0,
+                6
+            ],
+            "teastsa4": [
+                0,
+                6,
+                "Wooden cutting board"
+            ],
+            "teastsa5": [
+                0,
+                6,
+                "Leather belt",
+                "Whip"
+            ],
+            "teastsa6": [
+                0,
+                8,
+                "Nerve-Steadying Serum"
+            ],
+            "teastpg1a1": [
+                0,
+                2,
+                "Leather belt",
+                "Smoke Bomb"
+            ],
+            "teastpg1a2": [
+                0,
+                2,
+                "Wooden cutting board"
+            ],
+            "teastpg1a3": [
+                0,
+                2,
+                "Large wooden spoon"
+            ],
+            "teastpg1a5": [
+                0,
+                2,
+                "Leather belt",
+                "Whip",
+                "Electric prod",
+                "Large wooden spoon"
+            ],
+            "teastpg1a6": [
+                0,
+                2,
+                "Adrenaline",
+                "Wooden cutting board"
+            ],
+            "teastpg2": [
+                0,
+                5,
+                "Leather belt"
+            ],
+            "teastpg4a7": [
+                0,
+                5,
+                "Leather belt",
+                "Large wooden spoon"
+            ],
+            "teastpg6a1": [
+                0,
+                5,
+                "Leather belt",
+                "Whip"
+            ],
+            "teastpg6a2": [
+                0,
+                3,
+                "Adrenaline",
+                "Nerve-Steadying Serum"
+            ],
+            "teastpg6a3": [
+                0,
+                3,
+                "Adrenaline",
+                "Nerve-Steadying Serum"
+            ],
+            "teastpg6a4": [
+                0,
+                3,
+                "Hormone cocktail A1",
+                "Antibiotics"
+            ],
+            "tpc0inspect": [
+                0,
+                0,
+                "Set of small razors"
+            ],
+            "tmedLobby": [
+                0,
+                2,
+                "Bag of cocaine",
+                "Amphetamines",
+                "Instant camera"
+            ],
+            "tadvLobby": [
+                0,
+                2,
+                "Bag of cocaine",
+                "Amphetamines",
+                "Instant camera"
+            ]
+        },
+        "npcLists": {
+            "brothel": [
+                "Specter",
+                "Phantom",
+                "Viper",
+                "Grimm",
+                "Shade",
+                "Raven",
+                "Harlan",
+                "Duncan",
+                "Marty",
+                "Ralph",
+                "Nolan",
+                "Travis",
+                "Mickey",
+                "Toby",
+                "Reggie",
+                "Blaine",
+                "Mercer",
+                "Saif"
+            ],
+            "badmentwo": [
+                "Specter-Phantom",
+                "Viper-Phantom",
+                "Viper-Grimm",
+                "Shade-Grimm",
+                "Shade-Raven",
+                "Harlan-Raven",
+                "Harlan-Duncan",
+                "Marty-Duncan",
+                "Marty-Ralph",
+                "Nolan-Ralph",
+                "Nolan-Travis",
+                "Mickey-Travis",
+                "Mickey-Toby",
+                "Reggi-Toby",
+                "Reggi-Blaine",
+                "Reggi-Mercer",
+                "Raven-Mercer",
+                "Raven-Shade",
+                "Specter-Shade"
+            ],
+            "badmenthree": [
+                "David-Jamal-Joel",
+                "Tavish-Rourke-Jaxton",
+                "Magnus-Calder-Tavish",
+                "Rico-Blaine-Carlos",
+                "Rico-Mercer-Carlos",
+                "Rico-Mercer-Blaine",
+                "Rico-Mercer-Serra",
+                "Rico-Blaine-Serra",
+                "Rico-Carlos-Serra"
+            ],
+            "westslumsbrothel": [
+                "Specter",
+                "Phantom",
+                "Viper",
+                "Grimm",
+                "Shade",
+                "Raven",
+                "Harlan",
+                "Duncan",
+                "Marty",
+                "Ralph",
+                "Nolan",
+                "Travis",
+                "Mickey",
+                "Toby",
+                "Reggie",
+                "Blaine",
+                "Mercer"
+            ],
+            "policetrio": [
+                "Aras-Jaiden-Hamidas",
+                "Songho-Otto-Ursus",
+                "Daisy-Gala-Mimi"
+            ],
+            "policefem": [
+                "Daisy-Gala",
+                "Daisy-Mimi",
+                "Gala-Mimi"
+            ],
+            "thdevtrio": [
+                "Elekra-Lyra-Sable",
+                "Adanna-Aria-Sorona",
+                "Samma-Ioanna-Saymy",
+                "Tinker-Ember-Sooty"
+            ],
+            "meangirls": [
+                "Marcela-Mireia",
+                "Alexia-Ciara",
+                "Tella-Tessa"
+            ],
+            "Iaiateam": [
+                "Iaia-Jaxton-Rourke",
+                "Iaia-Verrick-Rourke",
+                "Iaia-Jaxton-Verrick"
+            ],
+            "Samyateam": [
+                "Samya-Magnus-Calder",
+                "Samya-Magnus-Tavish",
+                "Samya-Calder-Tavish"
+            ],
+            "Ricoteam": [
+                "Rico-Blaine-Carlos",
+                "Rico-Mercer-Carlos",
+                "Carlos-Mercer-Blaine",
+                "Rico-Mercer-Serra",
+                "Rico-Blaine-Serra",
+                "Mercer-Carlos-Serra"
+            ],
+            "Hawkteam": [
+                "Hawk-Nash-Gage",
+                "Hawk-Nash-Kip",
+                "Gage-Nash-Kip",
+                "Hawk-Gage-Kip"
+            ],
+            "Rondatrio": [
+                "Rico-Blaine-Carlos",
+                "Rico-Mercer-Carlos",
+                "Carlos-Mercer-Blaine",
+                "Rico-Mercer-Serra",
+                "Rico-Blaine-Serra",
+                "Mercer-Carlos-Serra",
+                "Hawk-Nash-Gage",
+                "Hawk-Nash-Kip",
+                "Gage-Nash-Kip",
+                "Hawk-Gage-Kip"
+            ],
+            "badenctwo": [
+                "David-Jamal",
+                "Tavish-Rourke",
+                "Iaia-Ioanna"
+            ],
+            "badencthree": [
+                "David-Jamal-Joel",
+                "Tavish-Rourke-Jaxton",
+                "Iaia-Ioanna-Samma",
+                "Magnus-Calder-Tavish"
+            ],
+            "gymVoyeur": [
+                "Rafail-Missao",
+                "Magnus-David",
+                "Sabiya-Fernie",
+                "Fernando-Kimberly",
+                "Samya-Dabith"
+            ],
+            "barVoyeur": [
+                "Sabiya-Emily",
+                "Xander-Emilia",
+                "Joe-Kimberly",
+                "Frank-Emilia",
+                "Stan-Kimberly",
+                "Mike-Harley",
+                "Ned-Harley",
+                "Ed-Harley",
+                "Saymy-Ioanna"
+            ],
+            "ncVoyeur": [
+                "Adil-Cohan",
+                "Sagara-Tino",
+                "Jaiden-Lolo",
+                "Fernando-Tara",
+                "Veritas-Lola",
+                "Ted-Yanda",
+                "Ed-Annah",
+                "Ned-Tella",
+                "Iaia-Tessa",
+                "Iaia-Will"
+            ],
+            "h5Voyeur": [
+                "Sohgo-Ilona",
+                "Sagara-Rebecca",
+                "Ned-Annah",
+                "Ted-Rebecca",
+                "Iaia-Tessa",
+                "Ed-Rebecca",
+                "Veritas-Rebecca",
+                "Saif-Sorona",
+                "Jamal-Dabith",
+                "Margo-Rebecca",
+                "Samso-Rebecca"
+            ],
+            "wallworker": [
+                "Brock-Frank-Joe",
+                "Brock-Frank-Stan",
+                "Brock-Frank-Mike",
+                "Brock-Joe-Stan",
+                "Brock-Joe-Mike",
+                "Brock-Stan-Mike"
+            ],
+            "pornActor": [
+                "Jaxon-Finn-Leo",
+                "Jaxon-Finn-Maverick",
+                "Jaxon-Leo-Maverick",
+                "Finn-Leo-Maverick",
+                "Jaxon-Finn",
+                "Finn-Maverick",
+                "Jaxon-Leo",
+                "Leo-Maverick",
+                "Finn-Leo",
+                "Jaxon-Maverick"
+            ],
+            "pornActress": [
+                "Ruby-Luna-Zara",
+                "Ruby-Luna-Ivy",
+                "Ruby-Ivy-Zara",
+                "Luna-Zara-Ivy",
+                "Ruby-Luna",
+                "Ruby-Ivy",
+                "Luna-Ivy",
+                "Ruby-Zara",
+                "Zara-Ivy",
+                "Zara-Luna"
+            ],
+            "pornAct": [
+                "Ruby",
+                "Luna",
+                "Zara",
+                "Ivy",
+                "Jaxon",
+                "Finn",
+                "Leo",
+                "Maverick"
+            ],
+            "pornActf": [
+                "Ruby",
+                "Luna",
+                "Zara",
+                "Ivy"
+            ],
+            "pornActm": [
+                "Jaxon",
+                "Finn",
+                "Leo",
+                "Maverick"
+            ]
+        },
+        "shopItems": {
+            "thardware": [
+                "Lockpick",
+                "Power wire",
+                "Instant camera",
+                "Pendrive",
+                "Large bolt",
+                "Shadow Mist Spray",
+                "Smoke Bomb",
+                "Nerve-Steadying Serum",
+                "Steel-toe boots",
+                "Reinforced gloves",
+                "Insta-Soap",
+                "Nitrile gloves",
+                "Grip-enhancing gloves",
+                "Self booting flash drive",
+                "Electric prod",
+                "Door lock",
+                "Curtains",
+                "Large hook",
+                "Teflon tape",
+                "Paint spray can",
+                "Metal bar"
+            ],
+            "tfashion": [
+                "Black t-shirt",
+                "White t-shirt",
+                "Black jeans",
+                "Jeans",
+                "Black tank top",
+                "Grey tank top",
+                "White tank top",
+                "Black skirt",
+                "Grey skirt",
+                "Black panties",
+                "White panties",
+                "Red panties",
+                "Black underpants",
+                "White underpants",
+                "Red underpants",
+                "Black sneakers",
+                "White sneakers",
+                "Red sneakers",
+                "Grey suit jacket",
+                "Black suit jacket",
+                "White blouse",
+                "Grey suit pants",
+                "Black suit pants",
+                "Black maxi dress",
+                "White maxi dress",
+                "Green summer dress",
+                "White summer dress",
+                "Camo cloak",
+                "Fishnet long gloves",
+                "Cute mittens",
+                "Leather belt",
+                "Black high heels",
+                "White high heels",
+                "Red high heels",
+                "Pink high heels",
+                "Black stiletto heels",
+                "Black ankle-strap stilettos",
+                "Black heeled boots",
+                "Brown heeled boots",
+                "Suede heeled boots",
+                "Black rubber-heeled boots",
+                "Black hoodie",
+                "Grey hoodie",
+                "White lace bra",
+                "Black lace bra",
+                "Red lace bra",
+                "Pink lace bra",
+                "White strapless bra",
+                "Black strapless bra",
+                "Red strapless bra",
+                "Pink strapless bra"
+            ],
+            "tpawnshop": [
+                "Lockpick",
+                "Power wire",
+                "Instant camera",
+                "Shadow Mist Spray",
+                "Smoke Bomb",
+                "Insta-Soap",
+                "Cute mittens",
+                "Electric prod",
+                "Door lock",
+                "Large hook"
+            ],
+            "ttrinkets": [
+                "Lockpick",
+                "Power wire",
+                "Instant camera",
+                "Large bolt",
+                "Buttplug",
+                "Handcuffs with key",
+                "Blank ID",
+                "Shadow Mist Spray",
+                "Smoke Bomb",
+                "Insta-Soap",
+                "Electric prod",
+                "Door lock",
+                "Curtains",
+                "Black high heels",
+                "Piece of rope",
+                "Paint spray can"
+            ],
+            "tnarcotics": [
+                "Bag of cocaine",
+                "Amphetamines",
+                "Popper",
+                "Sildenafil",
+                "ISAPHAR-MascUp",
+                "ISAPHAR-FemUp",
+                "ISAPHAR-LustUp",
+                "Benzos",
+                "Testosterone injections",
+                "Steroids",
+                "Adrenaline",
+                "Nerve-Steadying Serum"
+            ],
+            "tsexshop": [
+                "Anal beads",
+                "Buttplug",
+                "Dildo",
+                "Ball gag",
+                "Cock ring",
+                "Handcuffs with key",
+                "Chastity cage with key",
+                "Chastity belt with key",
+                "Dog ears",
+                "Cat ears",
+                "Fox ears",
+                "Pony mask",
+                "Dog collar",
+                "Cat collar",
+                "Pony tail buttplug",
+                "Dog tail buttplug",
+                "Cat tail buttplug",
+                "Bunny tail buttplug",
+                "Fox tail buttplug"
+            ],
+            "trestrainshop": [
+                "Handcuffs with key",
+                "Chastity cage with key",
+                "Chastity belt with key",
+                "Ankle cuffs",
+                "Metal bar",
+                "Door lock",
+                "Large hook",
+                "Electric prod",
+                "Piece of rope",
+                "Leather belt",
+                "Wooden plank",
+                "Large bolt",
+                "Whip"
+            ],
+            "tpiercings": [
+                "Steel ring piercing",
+                "Steel barbell piercing",
+                "Steel chain piercing"
+            ],
+            "tgroceries": [
+                "Vodka",
+                "Diluted ethanol",
+                "Protein powder",
+                "Caffeine drink",
+                "Sugary drink",
+                "Carbohydrate flour",
+                "Sweet flour",
+                "Solid fat"
+            ],
+            "Anna": [],
+            "Zoe": [],
+            "Ciara": []
+        },
+        "population": [
+            "Olena",
+            "Lilly",
+            "Rebecca",
+            "Timea",
+            "Lola",
+            "Yanda",
+            "Fatima",
+            "Miriam",
+            "Fernando",
+            "Songho",
+            "Daisy",
+            "Mimi",
+            "Ted",
+            "Davita",
+            "Adanna"
+        ],
+        "rejectList": [
+            "Timea"
+        ],
+        "day": 2
+    },
+    "gameplay": {
+        "difficulty": "normal",
+        "attPoints": 13,
+        "step": "$start0standard",
+        "location": "tmainsquare",
+        "moveStep": "",
+        "oldtext": "<br><br>Your name is Seirane and you are a 18-year-old boy. Your skin is tan and you have green eyes. You have very short straight platinum blond hair. You are very tall and muscular. Being a boy all by yourself is never easy and muscular may attract some unwanted attention.<br><br>A gust of cool air brings you back to reality, making you shiver. Your surroundings snap into focus, an unfamiliar landscape that leaves you feeling more lost than before.<br><br>You open your eyes to a strange town, with a mix of new and old buildings, some of which have been hastily patched up with different materials. The newer construction seems to be done with bricks and tiles, yet the older structures appear to be composed of metal and concrete. A massive wall made of mud and metal bars surrounds the town.<br><br>A few strangers appear walking down the street, wearing a mixture of modern clothes and tattered robes. When they come close enough, you hear them speaking your language. Their faces are rugged and unwelcoming.<br><br>You decide to approach some people.<br><br>You approach the girl in her late teens.<br><br>You decide to chat with her.<br><br>You make small talk with her, opening the way to further chatting.<br><br>\"I'm Seirane,\" you say. \"Nice to meet you Seirane,\" she says.<br><br>\"My name is Timea,\" she says.<br><br>\"How are you?\" she asks.<br><br>You say that you've been better.<br><br>She doesn't say anything.<br><br>You ask her if she knows where you could find a job. Timea. \"If you don't mind being treated like shit, you could ask in some of the big manors. They usually need people to clean and cook and stuff.\"<br><br>You decide to have a more flirty demeanor.<br><br>You try to face her and get closer to her, but she steps back.<br><br>You coerce her into not resisting.<br><br>Despite her resistance, you face her, getting closer to her.<br><br>You press against her torso, but she steps back. <br/><br/>You try to coerce her, but she steps back.<br><br>Timea starts to leave.",
+        "enviro": "Town",
+        "mapID": "minimap",
+        "events": {
+            "Rebecca": 1225
+        },
+        "countDowns": {
+            "encounter": 65
+        },
+        "outfitEffects": "",
+        "buttons": "<input id=\"$explore\" type=\"button\" value=\"Explore the town\" class=\"button-base butaction\" onclick=\"moveStep(id)\"><input id=\"$approach\" type=\"button\" value=\"Approach people\" class=\"button-base butaction\" onclick=\"moveStep(id)\">",
+        "interface": {},
+        "notices": [
+            "Reputation effect: Social blunder - Town"
+        ],
+        "randVal": 80.82221808044012,
+        "version": "v0.38",
+        "statSkill": "",
+        "fading": [],
+        "prevStep": "$npcf1tryout",
+        "sexAct": "none",
+        "sexProst": "none",
+        "sexCon": "consensual",
+        "sexMood": "noDom",
+        "sexPosition": "none",
+        "sexLoc": "street",
+        "flirtStep": "init",
+        "newtext": "You try to grab her, but she escapes your grip and quickly goes away.",
+        "postTextAction": "",
+        "step$approach": "$start0standard",
+        "sNPC": "Timea",
+        "step$chat": "$appnpc",
+        "domAct": "none",
+        "cardID": "Olena",
+        "savedate": "2024-6-30 15:24:16 "
+    },
+    "npc": {
+        "id": "Olena",
+        "name": "Olena",
+        "chatgroup": 1,
+        "job": "Property Owner",
+        "sex": "female",
+        "personality": [
+            "fem",
+            "int",
+            "quest"
+        ],
+        "age": 45,
+        "skincolor": "pale",
+        "eyecolor": "jet black",
+        "haircolor": "raven",
+        "height": "tall",
+        "bodytype": "athletic",
+        "hairlength": "shoulder-long",
+        "fetishes": {
+            "act discipline": 40,
+            "act bondage": 40,
+            "act spanking": 40
+        },
+        "timeTable": [
+            [
+                "sleep",
+                [
+                    23,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "teastsa5"
+            ],
+            [
+                "work",
+                [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                ],
+                "teastsa5"
+            ],
+            [
+                "social",
+                [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                ],
+                "tmainsquare"
+            ],
+            [
+                "errands",
+                [
+                    8,
+                    9,
+                    11,
+                    12
+                ],
+                "tmarketstreet"
+            ]
+        ],
+        "home": "teastsa5",
+        "items": [
+            0,
+            5,
+            "idCard-Olena"
+        ],
+        "faction": "Town",
+        "boss": "none",
+        "sub": [],
+        "title": "Property Owner",
+        "status": 70,
+        "tier": 4,
+        "statsEff": [],
+        "position": "stand",
+        "exhaustion": 0,
+        "pain": 0,
+        "lust": 0
+    }
+}
