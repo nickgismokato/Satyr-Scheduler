@@ -4,6 +4,10 @@ import os
 #pip imported packages
 import pandas as pd
 
+####################################################################################################
+#	CLASS: 			SketchData
+#	INPUT INIT: 	<String> - directory path
+####################################################################################################
 class SketchData:
 	def __init__(self, directory) -> None:
 		self.dir = directory
@@ -15,6 +19,15 @@ class SketchData:
 		df = pd.read_csv(dir)
 		returnlst = [Sketch(col1, col2, col3, col4) for col1, col2, col3, col4 in zip(df['Title'].str.lstrip(), df['Weight'], df['People'], df['Instructor'].str.lstrip())]
 		return returnlst
+####################################################################################################
+#	CLASS: 			Sketch
+#	INPUT INIT: 	{
+#						<String> - Title of sketch
+#						<Int> - Weight of progress
+#						<String>[] - People involved
+#						<String> - Instructor of sketch
+#					}
+####################################################################################################
 class Sketch:
 	def __init__(self, title, weight, people, instructor) -> None:
 		self.title = ""
@@ -32,7 +45,11 @@ class Sketch:
 			tmplist.append(people.strip())
 		self.people = tmplist
 		return None
-	
+
+####################################################################################################
+#	CLASS: 			SongData
+#	INPUT INIT: 	<String> - directory path
+####################################################################################################
 class SongData:
 	def __init__(self, directory) -> None:
 		self.dir = directory
@@ -44,6 +61,15 @@ class SongData:
 		df = pd.read_csv(dir)
 		returnlst = [Song(col1, col2, col3, col4) for col1, col2, col3, col4 in zip(df['Title'].str.lstrip(), df['Weight'], df['People'], df['Instructor'].str.lstrip())]
 		return returnlst
+####################################################################################################
+#	CLASS: 			Song
+#	INPUT INIT: 	{
+#						<String> - Title of sketch
+#						<Int> - Weight of progress
+#						<String>[] - People involved
+#						<String> - Instructor of sketch
+#					}
+####################################################################################################
 class Song:
 	def __init__(self, title, weight, people, instructor) -> None:
 		self.title = ""
