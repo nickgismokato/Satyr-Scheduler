@@ -1,5 +1,5 @@
-Title,Weight,People,Instructor
-Song 1, 5, Guy 1; Guy 2; Girl 1, Girl 1
-Song 2, 2, Guy 2, Girl 1
-Song 3, 3, Person 1, Guy 1
-Song 4, 3, Person 1, Girl 2
+Title,Weight,People,Instructor,Need Intructor
+Song 1, 5, Guy 1; Guy 2; Girl 1, Girl 1, 0
+Song 2, 2, Guy 2, Girl 1, 1
+Song 3, 3, Person 1, Guy 1, 1
+Song 4, 3, Person 1, Girl 2, 0

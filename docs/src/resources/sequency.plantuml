@@ -1,0 +1,38 @@
+@startuml sequency
+
+skinparam Style strictuml
+skinparam SequenceMessageAlignment center
+
+actor Program
+participant Schedule
+participant GetData
+participant CreateScheduleData
+participant DeploySchedule
+
+group Creation of Schedule object
+Program ->  Schedule ++: ""SatyrSchedule.InitSchedule(**kwargs)""
+activate Program
+		Schedule -> Schedule : //Create Initial Data//
+		Schedule -> GetData ++ : ""GetData()""
+			GetData -> GetData : //Read //""Sketch.csv""\n//Create SketchData//
+			GetData -> GetData : //Read //""Song.csv""\n//Create SongData//
+			GetData --> Schedule --: ""List<SketchData, SongData>""
+		Schedule --> Program --: ""Schedule<Object>""
+deactivate Program
+end
+
+group Creation of Room data
+Program -> Schedule ++: ""Schedule.InsertData(<args>)""
+activate Program
+	Schedule -> Schedule  : ""self.CreateRoomDataFrame()""\n//Read //""Room.csv""
+	Schedule --> Program --: ""void""
+deactivate Program
+end
+
+group Creation of Reccomended Schedule
+Program -> Schedule ++: ""Schedule.CreateScheduleData""
+	Schedule -> CreateScheduleData ++: ""CreateScheduleData.MakeSchedule(<args>)""
+		CreateScheduleData -> CreateScheduleData  : //Assign weighted//\n //results//
+end
+
+@enduml
