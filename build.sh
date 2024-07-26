@@ -10,4 +10,4 @@ rm -rf SatyrScheduler/src/SatyrScheduler.egg-info
 cd SatyrScheduler && python3 -m build
 
 #Local Install
-python3 -m pip install .
+python3 -m pip install . --break-system-packages

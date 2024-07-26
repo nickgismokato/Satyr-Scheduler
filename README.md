@@ -41,3 +41,6 @@ pip install --upgrade SatyrScheduler
 
 
 ## About SaTyR
+SaTyR is a collaboration between the the student revyer at the Natur & Bioscience faculty at Copenhagen university. Its association has eight members (Biology-, Computer- Science-, Physics-, Chemistry-, Mathematics-, Mol.Chem-, Smedie- and GeologyRevy). 
+
+The link for SaTyR can be found [here](https://www.satyr.dk/). 
