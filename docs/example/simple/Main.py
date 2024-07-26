@@ -8,11 +8,21 @@ def Main():
 	for obj in data:
 		print(f"Object name: [{obj.name}]\nObject Directory: [{obj.dir}]\nObject TID: [{obj.TID}]")
 		if(obj.TID == 1):
+			count = 0
 			for sketch in obj.lstSketchObj:
-				print(f"\tSketch: {sketch.title}\tRanking: {sketch.ranking}\tInstructor: {sketch.instructor}\t People: {sketch.people}\t Need Instructor: {sketch.need_Instructor}")
+				if not(count == 0):
+					print(f"\tSketch: {sketch.title}\tRanking: {sketch.ranking}\tInstructor: {sketch.instructor}\t People: {sketch.people}\t\t Need Instructor: {sketch.need_Instructor}")
+				else:
+					print(f"\tSketch: {sketch.title}\tRanking: {sketch.ranking}\tInstructor: {sketch.instructor}\t People: {sketch.people}\t Need Instructor: {sketch.need_Instructor}")
+				count += 1
 		if(obj.TID == 0):
+			count = 0
 			for song in obj.lstSongObj:
-				print(f"\tSong: {song.title}\tRanking: {song.ranking}\tInstructor: {song.instructor}\t People: {song.people}\t Need Instructor: {song.need_Instructor}")
+				if not(count == 0):
+					print(f"\tSong: {song.title}\tRanking: {song.ranking}\tInstructor: {song.instructor}\t People: {song.people}\t\t\t Need Instructor: {song.need_Instructor}")
+				else:
+					print(f"\tSong: {song.title}\tRanking: {song.ranking}\tInstructor: {song.instructor}\t People: {song.people}\t Need Instructor: {song.need_Instructor}")
+				count += 1
 		print("---------------------------------")
 	ss.InitSchedule(breaktime = 10, hello = "World!")
 	return None
