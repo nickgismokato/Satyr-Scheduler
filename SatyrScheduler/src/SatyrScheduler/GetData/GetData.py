@@ -118,6 +118,34 @@ class Song:
 			self.need_Instructor = 1
 		return None
 
+####################################################################################################
+#	CLASS: 			RoomData
+#	INPUT INIT: 	<String> - directory path
+####################################################################################################
+class RoomData:
+	def __init__(self, directory):
+		self.dir = directory
+		self.name = os.path.basename(self.dir)
+		self.type = "ROOM"
+		self.TID = 2
+		self.lstRoom = self.CreateListOfRoomObjects()
+	def CreateListOfRoomObjects(self):
+		df = pd.read_csv(self.dir)
+		retLst = [Room(col1, col2) for col1, col2 in zip(df['Name'].str.strip(),df['Usage'])]
+		return retLst
+####################################################################################################
+#	CLASS: 			Room
+#	INPUT INIT: 	{
+#						<String> - Title of room
+#						<Int> - Song or Sketch usage
+#					}
+####################################################################################################
+class Room:
+	def __init__(self,name, usage):
+		self.name = name
+		self.usage = usage
+		self.usageName = 'Sketch' if self.usage == 1 else 'Song'
+
 def GetData():
 	directory = os.getcwd()
 	file_list = []
@@ -131,6 +159,8 @@ def GetData():
 				myClass = SongData(csvFile)
 			if(os.path.basename(csvFile) == "sketch.csv"):
 				myClass = SketchData(csvFile)
+			if(os.path.basename(csvFile) == "room.csv"):
+				myClass = RoomData(csvFile)
 			list_Objects.append(myClass)
 	if not list_Objects:
 		print("ERROR:\n\tNo .csv files was detected was empty!\n\tMake sure to have a song.csv or/and song.csv file withing your main program.")
