@@ -35,8 +35,14 @@ def Main():
 	print("########################################")
 	print("#\t Testing Schedule")
 	print("########################################")
-	ss.InitSchedule(breaktime = 10, hello = "World!")
-
+	schedule = ss.InitSchedule(breaktime = 10, hello = "World!")
+	count = 0
+	for song in schedule.songs.lstSongObj:
+		if not(count == 0):
+			print(f"\tSong: {song.title}\tRanking: {song.ranking}\tInstructor: {song.instructor}\t People: {song.people}\t\t\t Need Instructor: {song.need_Instructor}")
+		else:
+			print(f"\tSong: {song.title}\tRanking: {song.ranking}\tInstructor: {song.instructor}\t People: {song.people}\t Need Instructor: {song.need_Instructor}")
+		count += 1
 	return None
 
 if __name__ == "__main__":

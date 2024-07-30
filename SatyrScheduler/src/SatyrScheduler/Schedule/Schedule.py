@@ -47,7 +47,6 @@ def InitSchedule(**kwargs):
 	#print(kwargs)
 	list_GetData = GetData.GetData()
 	list_GetData.sort(key=lambda x: x.TID, reverse = False)
-	#print(list_GetData)
 	created_schedule = Schedule(datetime.datetime(2024, 7, 26), kwargs.get('breaktime'), kwargs.get('deltatime'), kwargs.get('starttime'), kwargs.get('endtime'), list_GetData)
 	attrs = vars(created_schedule)
 	#print(', '.join("%s: %s" % item for item in attrs.items()))
