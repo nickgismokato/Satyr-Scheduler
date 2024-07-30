@@ -141,7 +141,7 @@ class RoomData:
 #					}
 ####################################################################################################
 class Room:
-	def __init__(self,name, usage):
+	def __init__(self, name, usage):
 		self.name = name
 		self.usage = usage
 		self.usageName = 'Sketch' if self.usage == 1 else 'Song'

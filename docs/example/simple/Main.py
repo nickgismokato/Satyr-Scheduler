@@ -31,7 +31,12 @@ def Main():
 				else:
 					print(f"\tRoom: {room.name},\t\tUsage: {room.usageName}")
 		print("---------------------------------")
+	
+	print("########################################")
+	print("#\t Testing Schedule")
+	print("########################################")
 	ss.InitSchedule(breaktime = 10, hello = "World!")
+
 	return None
 
 if __name__ == "__main__":

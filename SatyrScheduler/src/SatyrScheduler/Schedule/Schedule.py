@@ -37,17 +37,18 @@ class Schedule:
 		self.endtime	= datetime.datetime.strptime(endtime, '%H:%M')
 		self.sketches	= lst_GetData[1]
 		self.songs		= lst_GetData[0]
+		self.rooms		= lst_GetData[2]
 		pass
 
 
 def InitSchedule(**kwargs):
 	defaultKwargs = {'breaktime' : 0, 'deltatime' : 25, 'starttime' : "17:00", 'endtime' : "21:25"}
 	kwargs = {**defaultKwargs, **kwargs}
-	print(kwargs)
+	#print(kwargs)
 	list_GetData = GetData.GetData()
 	list_GetData.sort(key=lambda x: x.TID, reverse = False)
 	#print(list_GetData)
 	created_schedule = Schedule(datetime.datetime(2024, 7, 26), kwargs.get('breaktime'), kwargs.get('deltatime'), kwargs.get('starttime'), kwargs.get('endtime'), list_GetData)
 	attrs = vars(created_schedule)
-	print(', '.join("%s: %s" % item for item in attrs.items()))
+	#print(', '.join("%s: %s" % item for item in attrs.items()))
 	return created_schedule

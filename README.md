@@ -9,6 +9,12 @@ Furthermore the program will also take people not doing anything and put them in
 - [x] PyPi Package for easy install
 - [ ] Full documentation of the package and its uses
 - [ ] Automatic scheduler with custom timing, breakpoints, room assignment and instructor assignment
+  - [ ] Room Assignments
+  - [ ] Instructor Assignments
+  - [ ] Custom Timing
+  - [ ] Breakpoints
+  - [ ] Accurately assign people without overlaps
+  - [ ] MORE TO COME 
 
 ## How to build locally
 **NOTE!** To build locally it is recommended to be on a Linux Distro or at least use WSL in windows.
