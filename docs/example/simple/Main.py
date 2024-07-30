@@ -6,6 +6,7 @@ import os
 def Main():
 	data = ss.GetData()
 	for obj in data:
+
 		print(f"Object name: [{obj.name}]\nObject Directory: [{obj.dir}]\nObject TID: [{obj.TID}]")
 		if(obj.TID == 1):
 			count = 0
@@ -23,6 +24,12 @@ def Main():
 				else:
 					print(f"\tSong: {song.title}\tRanking: {song.ranking}\tInstructor: {song.instructor}\t People: {song.people}\t Need Instructor: {song.need_Instructor}")
 				count += 1
+		if(obj.TID == 2):
+			for room in obj.lstRoom:
+				if(len(room.name)>8):
+					print(f"\tRoom: {room.name},\tUsage: {room.usageName}")
+				else:
+					print(f"\tRoom: {room.name},\t\tUsage: {room.usageName}")
 		print("---------------------------------")
 	ss.InitSchedule(breaktime = 10, hello = "World!")
 	return None
