@@ -4,6 +4,9 @@ import SatyrScheduler as ss
 import os
 
 def Main():
+	print("########################################")
+	print("#\t Testing GetData")
+	print("########################################")
 	data = ss.GetData()
 	for obj in data:
 
@@ -36,6 +39,7 @@ def Main():
 	print("#\t Testing Schedule")
 	print("########################################")
 	schedule = ss.InitSchedule(breaktime = 10, hello = "World!")
+	print(f"SCHEDULE::<Schedule>\nStart Time: {schedule.startime.strftime('%H:%M')}, End time: {schedule.endtime.strftime('%H:%M')}")
 	count = 0
 	for song in schedule.songs.lstSongObj:
 		if not(count == 0):
@@ -43,6 +47,9 @@ def Main():
 		else:
 			print(f"\tSong: {song.title}\tRanking: {song.ranking}\tInstructor: {song.instructor}\t People: {song.people}\t Need Instructor: {song.need_Instructor}")
 		count += 1
+	schedule.MakeSchedule()
+
+
 	return None
 
 if __name__ == "__main__":
