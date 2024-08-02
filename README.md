@@ -50,3 +50,24 @@ pip install --upgrade SatyrScheduler
 SaTyR is a collaboration between the the student revyer at the Natur & Bioscience faculty at Copenhagen university. Its association has eight members (Biology-, Computer- Science-, Physics-, Chemistry-, Mathematics-, Mol.Chem-, Smedie- and GeologyRevy). 
 
 The link for SaTyR can be found [here](https://www.satyr.dk/). 
+
+## About Satyr-Scheduler
+### Intended usage
+The intended usage of this package is to simply create a schedule, given the data for what need to be trained and where we can. The goal of this package is for now *(31/07-24)* **not** being a formatter. This work will have to be done manually, preferable in $\LaTeX$. 
+
+If the peers of this package deems it a useful tool within revy context, then maybe I will release an update to include a $\LaTeX$ formatter within the package to create a `.pdf` file with the schedule, as defined in our normal way of creating the schedule.
+
+### Manually work which had to be done
+#### Data I/O
+Pandas is used to read and write data from `.csv` files. But purging and also "fixing" bad data injection from end-user is left up to the developer. For example: `"Hello"` and `" Hello"`. As one can see a space has snug itself within the string. Since we cannot rely on everyone will read the documentation, a more aggressive approach has been made to "*clean*" the inputs. 
+ 
+#### CustomTime
+Since dawn of time, everybody has hated `datetime` from python since global formatting is not really an option. This has left me with no options than to create a custom time class. `namedtuple` from `collections` is also used here for "ease-of-us" when dealing with hour+minutes timings.
+
+
+#### Python version
+When I'm sure that both most `GNU+Linux` and Mac's can run `Python 3.12` then I will make this the standard. Not all M3 books can run this version of python and some stable distro releases (*like Debian 12*) is still not supporting `Python 3.12`. 
+
+When we change to version `3.12`, a lot of work can be made "easier" because of [PEP 695](https://peps.python.org/pep-0695/). This would allow us to have custom type syntax, which could reduce the clutter created by the `Schedule` and `CustomTime` classes. Futhermore we would have better f-strings [PEP 701](https://peps.python.org/pep-0701/).
+
+A problem with this update would be that `distutils` has been deprecated [PEP 632](https://peps.python.org/pep-0632/). `setuptools` require this package but from what can be gathered from the internet, `distutils` is still being worked on, but is just only coming from the `setuptools` package, which is not ideal if `setuptools` is needed as an package within `Satyr-Scheduler`. This will be a development problem for later though.
