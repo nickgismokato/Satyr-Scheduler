@@ -27,17 +27,16 @@ import datetime
 from collections import namedtuple
 
 CustomClock = namedtuple("CustomClock",["hour", "minute"])
+TimingClock = namedtuple("TimingClock",["start_Hour", "start_Minute", "end_Hour", "end_Minute"])
 
 class CustomTime:
     def __init__(self, startTime, endTime, deltaTime, breakTime):
         self.startTime_InMinute = 0
-        self. endTime_InMinute = 0
-        self.deltaTime = deltaTime
-        self.breakTime = breakTime
-        self.clockStart = None
-        self.clockEnd = None
-
-        
+        self.endTime_InMinute   = 0
+        self.deltaTime          = deltaTime
+        self.breakTime          = breakTime
+        self.clockStart         = None
+        self.clockEnd           = None  
         self.UpdateFields(startTime, endTime)
         return None
 
@@ -49,9 +48,34 @@ class CustomTime:
         endTime_Minute          = int(endTime.strftime("%M"))
         self.endTime_InMinute   = endTime_Hour*60 + endTime_Minute
 
-        self.clockStart              = CustomClock(startTime_Hour,startTime_Minute)
-        self.clockEnd                = CustomClock(endTime_Hour, endTime_Minute)
+        self.clockStart         = CustomClock(startTime_Hour,startTime_Minute)
+        self.clockEnd           = CustomClock(endTime_Hour, endTime_Minute)
 
+    def GetTimeList(self):
+        retList = []
+        count = 1
+        calc_Minute = self.clockStart.minute
+        calc_Hour = self.clockStart.hour
+        temp_Minute = self.clockStart.minute
+        temp_Hour = self.clockStart.hour
+        while(True):
+            caryy_Hour = 0
+            if(count == 1):
+                temp_Minute = (self.clockStart.minute + self.deltaTime) % 60
+                if(self.clockStart.minute + self.deltaTime > 59):                  
+                    temp_Hour = (self.clockStart.hour + 1) % 24
+            else:
+                temp_Minute = (calc_Minute + self.deltaTime) % 60
+                if(calc_Minute + self.deltaTime > 59):
+                    temp_Hour = (calc_Hour + 1) % 24
+            if((temp_Hour >= self.clockEnd.hour) and (temp_Minute >= self.clockEnd.minute)):
+                
+            retList.append(calc_Hour, calc_Minute, temp_Hour, temp_Minute)
+            if(temp_Minute + self.breakTime > 59):
+                calc_Hour = (temp_Hour + 1) % 24
+            calc_Minute = (temp_Minute + self.breakTime) % 60
+            count += 1
+        return retList
 
 
 
