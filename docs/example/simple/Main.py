@@ -38,7 +38,7 @@ def Main():
 	print("########################################")
 	print("#\t Testing Schedule")
 	print("########################################")
-	schedule = ss.InitSchedule(breaktime = 10, hello = "World!")
+	schedule = ss.InitSchedule(breaktime = 5, hello = "World!")
 	print(f"SCHEDULE::<Schedule>\nStart Time: {schedule.startime.strftime('%H:%M')}, End time: {schedule.endtime.strftime('%H:%M')}")
 	count = 0
 	for song in schedule.songs.lstSongObj:
